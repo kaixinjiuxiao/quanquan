@@ -10,7 +10,6 @@ import android.widget.ImageView;
 import com.wealth.freedom.quanquan.R;
 
 /**
- * Author : Captain
  * Time : 2017/12/4
  * Describe :
  */

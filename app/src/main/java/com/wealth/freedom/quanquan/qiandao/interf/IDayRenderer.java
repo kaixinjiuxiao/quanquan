@@ -6,7 +6,6 @@ import com.wealth.freedom.quanquan.qiandao.view.Day;
 
 
 /**
- *  @author: captain
  * Time:  2017/12/8 0008
  * Describe:
  */

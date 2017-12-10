@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Author : Captain
  * Time : 2017/12/3
  * Describe :
  */

@@ -11,7 +11,6 @@ import com.wealth.freedom.quanquan.fragment.UserFragment;
 import java.util.ArrayList;
 
 /**
- * Author : Captain
  * Time : 2017/12/6
  * Describe :
  */

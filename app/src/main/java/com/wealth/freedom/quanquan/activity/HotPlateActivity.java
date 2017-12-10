@@ -13,7 +13,6 @@ import com.wealth.freedom.quanquan.fragment.GaiNianFragment;
 import com.wealth.freedom.quanquan.fragment.HangYeFragment;
 
 /**
- * Author : Captain
  * Time : 2017/12/6
  * Describe :
  */

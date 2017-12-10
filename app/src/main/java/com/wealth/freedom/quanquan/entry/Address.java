@@ -1,7 +1,6 @@
 package com.wealth.freedom.quanquan.entry;
 
 /**
- * Author : Captain
  * Time : 2017/12/4
  * Describe :
  */

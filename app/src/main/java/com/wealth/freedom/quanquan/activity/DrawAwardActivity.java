@@ -6,7 +6,6 @@ import android.support.annotation.Nullable;
 import com.wealth.freedom.quanquan.R;
 
 /**
- * @author: captain
  * Time:  2017/12/4 0004
  * Describe:
  */

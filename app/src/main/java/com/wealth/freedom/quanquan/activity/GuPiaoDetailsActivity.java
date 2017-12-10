@@ -11,7 +11,6 @@ import android.widget.TextView;
 import com.wealth.freedom.quanquan.R;
 
 /**
- * @author: captain
  * Time:  2017/12/8 0008
  * Describe:
  */

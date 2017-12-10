@@ -1,7 +1,6 @@
 package com.wealth.freedom.quanquan.qiandao.component;
 
 /**
- * @author: captain
  * Time:  2017/12/8 0008
  * Describe:
  */

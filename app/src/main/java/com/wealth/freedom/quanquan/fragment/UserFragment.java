@@ -26,7 +26,6 @@ import com.wealth.freedom.quanquan.activity.WithDrawalActivity;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
- * Author : Captain
  * Time : 2017/12/3
  * Describe :
  */

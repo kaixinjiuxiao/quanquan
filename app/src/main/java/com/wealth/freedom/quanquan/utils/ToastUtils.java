@@ -4,7 +4,6 @@ import android.content.Context;
 import android.widget.Toast;
 
 /**
- * @author: captain
  * Time:  2017/11/9 0009
  * Describe:
  */

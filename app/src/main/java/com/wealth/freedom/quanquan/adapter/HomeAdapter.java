@@ -7,7 +7,6 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import java.util.List;
 
 /**
- * @author: captain
  * Time:  2017/12/5 0005
  * Describe:
  */

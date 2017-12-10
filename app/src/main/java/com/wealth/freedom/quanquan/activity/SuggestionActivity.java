@@ -13,7 +13,6 @@ import com.wealth.freedom.quanquan.R;
 import com.wealth.freedom.quanquan.utils.ToastUtils;
 
 /**
- * Author : Captain
  * Time : 2017/12/3
  * Describe :
  */

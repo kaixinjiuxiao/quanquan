@@ -11,7 +11,6 @@ import com.wealth.freedom.quanquan.R;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
- * Author : Captain
  * Time : 2017/12/3
  * Describe :
  */

@@ -13,7 +13,6 @@ import com.wealth.freedom.quanquan.entry.OwnSelected;
 import java.util.List;
 
 /**
- * Author : Captain
  * Time : 2017/12/6
  * Describe :
  */

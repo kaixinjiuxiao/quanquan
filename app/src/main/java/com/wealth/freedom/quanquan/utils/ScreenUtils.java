@@ -5,7 +5,6 @@ import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
 /**
- * Author : Captain
  * Time : 2017/12/3
  * Describe :
  */

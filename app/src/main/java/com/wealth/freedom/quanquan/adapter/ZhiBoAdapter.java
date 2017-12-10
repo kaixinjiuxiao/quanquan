@@ -15,7 +15,6 @@ import com.wealth.freedom.quanquan.entry.ZhiBo;
 import java.util.List;
 
 /**
- * @author: captain
  * Time:  2017/12/6 0006
  * Describe:
  */

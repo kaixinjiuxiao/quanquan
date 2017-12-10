@@ -5,7 +5,6 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
 /**
- * * @author: captain
  * Time:  2017/11/9 0009
  * Description：SharedPreferences的管理类
  */
