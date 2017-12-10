@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.wealth.freedom.quanquan">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name=".activity.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity"/>
+        <activity android:name=".activity.RegisterActivity"/>
+        <activity android:name=".activity.FindPasswordActivity"/>
+        <activity android:name=".activity.MainActivity"/>
+        <activity android:name=".activity.UserInfoActivity"/>
+        <activity android:name=".activity.ModifyPsActivity"/>
+        <activity android:name=".activity.SuggestionActivity"/>
+        <activity android:name=".activity.SettingActivity"/>
+        <activity android:name=".activity.NoticeActivity"/>
+        <activity android:name=".activity.AttentionActivity"/>
+        <activity android:name=".activity.MyAwardActivity"/>
+        <activity android:name=".activity.QuAnswerActivity"/>
+        <activity android:name=".activity.DrawQuestionActivity"/>
+        <activity android:name=".activity.MyEnterActivity"/>
+        <activity android:name=".activity.DrawAwardActivity"/>
+        <activity android:name=".activity.QianDaoActivity"/>
+        <activity android:name=".activity.ReChargeActivity"/>
+        <activity android:name=".activity.ReChargeNoteActivity"/>
+        <activity android:name=".activity.ReChargeSuccessActivity"/>
+        <activity android:name=".activity.CompanyRecMoneyActivity"/>
+        <activity android:name=".activity.WithDrawalActivity"/>
+        <activity android:name=".activity.WithDrawalSuccessActivity"/>
+        <activity android:name=".activity.AddressActivity"/>
+        <activity android:name=".activity.EditAddressActivity"/>
+        <activity android:name=".activity.EnterQuanQUanActivity"/>
+        <activity android:name=".activity.XianXiaReChargeActivity"/>
+        <activity android:name=".activity.EvaluateActivity"/>
+        <activity android:name=".activity.HuiDaDetailsOneActivity"/>
+        <activity android:name=".activity.HuiDaDetailsTwoActivity"/>
+        <activity android:name=".activity.QuotationActivity"
+                  android:windowSoftInputMode="stateHidden|stateAlwaysHidden"
+            />
+        <activity android:name=".activity.HotPlateActivity"/>
+        <activity android:name=".activity.GuPiaoDetailsActivity"/>
+        <activity android:name=".activity.AttentionSettingActivity"/>
+    </application>
+
+</manifest>

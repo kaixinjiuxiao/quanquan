@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+            android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="6dp"
+            >
+
+            <ImageView
+                android:id="@+id/imgZB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/nature"
+                />
+
+            <TextView
+                android:id="@+id/txtZBing"
+                android:layout_width="51dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="9dp"
+                android:background="@drawable/zhibo_tiao"
+                android:gravity="center"
+                android:text="直播中"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:visibility="gone"
+                />
+
+            <RelativeLayout
+                android:id="@+id/relativeZBing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="14sp"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:layout_width="3dp"
+                    android:layout_height="3dp"
+                    android:background="@color/main"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgTeacher"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/icon_qq"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/zbContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="无白丁学院 李村雷老师--《早盘看点》"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/zbWatchNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="无白丁学院 913人观看"
+                    android:textColor="#B0ADB0"
+                    android:textSize="12sp"
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/txtAttention"
+                    android:layout_width="55dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/text_bg_color"
+                    android:gravity="center"
+                    android:text="+ 关注"
+                    android:textColor="@color/main"
+                    android:textSize="12sp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="@color/white"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/main_bg"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

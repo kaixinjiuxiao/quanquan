@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e9302e</color>
+    <color name="colorPrimaryDark">#e9302e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main">#e9302e</color>
+    <color name="main_bg">#F7F7F7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="input_hint">#B2B2B2</color>
+    <color name="black">#000000</color>
+    <color name="fengexian">#D2D2D2</color>
+    <color name="info_balck">#393839</color>
+
+</resources>

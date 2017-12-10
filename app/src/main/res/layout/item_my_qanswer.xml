@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017-11-29 20:51:30 3天前更新"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="我的回答：5"
+                android:textColor="@color/main"
+                android:textSize="14sp"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:text="老师，给看看002638以前停盘，今天开盘跌停，怎么个情况 求解答…"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/main_bg"
+        />
+</LinearLayout>

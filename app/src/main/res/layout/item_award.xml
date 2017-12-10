@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:id="@+id/awardImg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_qq"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/awardName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F130F"
+                android:text="Apple iPhone 8 Plus 64GB 金色"
+                android:layout_marginBottom="11dp"
+                />
+            <TextView
+                android:id="@+id/awardNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#0F130F"
+                android:text="数量：x1"
+                />
+        </LinearLayout>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:text="领取"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="@drawable/btn_sure"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/main"
+        />
+</LinearLayout>

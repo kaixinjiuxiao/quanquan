@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+            android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_qq"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="嫣然(230453444)"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2017-11-29 20:51:30 3天前更新"
+                android:textColor="#B4B4B4"
+                android:textSize="12sp"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:text="回答数：5"
+                android:textColor="@color/main"
+                android:textSize="14sp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="老师，给看看002638以前停盘，今天开盘跌停，怎 么个情况…"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/main_bg"
+        />
+</LinearLayout>
